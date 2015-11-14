@@ -1,0 +1,95 @@
+
+
+.indexTitle {
+    font-family: fantasy;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: meddon;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-bottom:15px;
+    animation: fadein 3s;
+}
+/*Firefox*/
+    @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/*Safari*/
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.indexTitle (@screen-xs) {
+    font-size:10px; 
+}
+.backgroundColor {
+    background-color:
+}
+.mainContainer {
+    background-image: url(./images/seasideimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.features {
+    font-family: quicksand;
+    font-size: 20px;
+    font-size: 25x;
+    padding-bottom:30px;
+}
+.mainPage {
+    background-color: #F5F5DC;
+    padding-top: 30px;
+}
+.indexText {
+    font-family: Lora;
+    font-size: 20px;
+    padding-top: 20px;
+}
+@media screen and (max-width: 640px) {
+        .indexText {
+    font-size:16px;
+    }
+}
+.ratesHeading {
+    text-align: center;
+    color:#002447;
+    font-size:25px;
+    font-family:Lora;
+}
+.ratesHeading (@screen-xs) {
+    font-size: 10px;
+}
+.cottagePic {
+    background-image: url(./images/shepardcottage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300;
+    width:100%;
+}
+.textTitle {
+    font-family:La Belle Aurore;
+    font-size:35px;
+    font-weight:bolder;
+}
+.photoButton {
+    font-size:20px;
+}
+@media screen and (max-width: 640px) {
+        .photoButton {
+    font-size:16px;
+    }
+}
+
+
+
+
+
+
