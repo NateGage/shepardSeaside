@@ -3,8 +3,8 @@
 .indexTitle {
     font-family: fantasy;
     color: aliceblue;
-    font-size: 50px;
-    font-family: meddon;
+    font-size: 70px;
+    font-family: La Belle Aurore;
     font-weight: bolder;
     padding-top: 40px;
     padding-bottom:15px;
@@ -33,10 +33,10 @@
     background-color:
 }
 .mainContainer {
-    background-image: url(./images/seasideimage.jpg);
+    background-image: url(./images/cottage17.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 320px;
 }
 .features {
     font-family: quicksand;
@@ -71,6 +71,9 @@
 }
 .ratesHeading (@screen-xs) {
     font-size: 10px;
+}
+.rentDates {
+    font-size: 16px;
 }
 .cottagePic {
     background-image: url(./images/shepardcottage.jpg);
@@ -119,9 +122,18 @@
     margin-left: -5%;  
     }
 }
-    
-
-
+.questionHeading {
+    font-size: 20px;
+    font-weight: bold;
+}
+#faqAnswer {
+    font-family: Lora;
+    font-size: 16px;
+}
+#toDoList {
+    font-family: Lora;
+    font-size: 16px;
+}
 
 
 
